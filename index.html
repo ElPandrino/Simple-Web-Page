@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
+</head>
+<body style="margin: 0;padding: 0; font-family: 'poppins', sans-serif;" >
+	<div class="Title Bar" style="background-color: #001000;; ; width: 100%;height: 9vh; display: grid;grid-template-columns: 10% 60% 15% 15%;">
+		<img src="./imagenes/logo.png" style="margin-left:1rem;">
+		<h1 style="font-size: 20;padding: 0px; margin: 0px; color: white; justify-self: center; align-self: center;">Generic Store</h1>
+		<h1 style="padding: 0px; margin: 0px; color: white; text-align:  center;font-size: 1rem;justify-self: center; align-self: center;">About us </h1>
+		<h1 style="padding: 0px; margin: 0px; color: white; text-align:  center; font-size: 1rem;justify-self: center; align-self: center;">Change Location</h1>
+	</div>
+	<div class="Center Body" style="display:grid;grid-template-columns:90% 10%;">
+		
+		<div class="Right-Panel" style="background-color: #d8b00f;height: 91vh; display: flex; ">
+			<form action="/autenticar" method="post" >
+				<label style="display:block; padding-top: 2rem; font-size: 2.5rem;margin-left: 15rem; margin-top:5rem; font-stretch:expanded;">Log in </label>
+				<input style="display:block; margin-top: 2rem; padding: 15px 350px 20px 20px;    border: #fff solid 2px; font-family:'poppins' ;margin-left: 15rem;"type="text" name="usuario" placeholder="Usuario">
+				<input style="display:block; margin-top: 2rem; padding: 15px 350px 20px 20px;   border: #fff solid 2px; font-family:'poppins';margin-left: 15rem;"type="text" name="usuario" placeholder="Contraseña">
+				<button  style="font-family: poppins;
+				    border: #fff solid 2px;
+				    display: block;
+				    background: #fff;
+				    max-width: 165px;
+				    padding: 13px 0px;
+				    width: 100%;
+				    margin-top:2rem ;
+				    margin-left: 15rem;
+				    "type="submit" >Submit</button>
+			</form>
+		</div>
+		<div class="Left-Panel" style="background-color:#F5F5DC;height: 91vh;">
+			<a style="display:block; padding: 2rem; color: black; text-decoration: none;" href="productosChoza.html" >Products</a>
+			<a style="display:block; padding: 2rem; color: black; text-decoration: none;" href="registro.html">Sign up User</a>
+		</div>
+		
+</body>
+</html>
